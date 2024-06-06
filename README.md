@@ -6,7 +6,9 @@ Este repositório contém uma aplicação web Spring Boot Java 17 que carrega um
 
 Pré-requisitos
 JDK 17 instalado e configurado em sua máquina.
+
 Apache Maven para compilar e executar o projeto.
+
 Git (opcional) para clonar este repositório.
 
 Instalação e Execução
@@ -14,18 +16,24 @@ Clone este repositório para o seu ambiente local (se você não tiver feito iss
 git clone https://exemplo.com/repo.git
 
 Navegue até o diretório do projeto:
+
 cd nome-do-projeto
 
+
 Compile o projeto usando o Maven:
+
 mvn clean package
 
 
 Após compilar, você deve criar um diretório C:\arquivos\premios se estiver usando sistema operacional Windows ou /arquivos/premios caso esteja utilizando sistema operacional Linux
+
 Então copie o arquivo de carga inicial editando seu nome para data.csv caso ainda não esteja com esse nome.
 
 
 Após a compilação bem-sucedida e copiar o arquivo data.csv para o diretorio de arquivos, você pode executar a aplicação usando o Maven:
+
 mvn spring-boot:run
+
 
 A aplicação estará disponível em http://localhost:8080
 
