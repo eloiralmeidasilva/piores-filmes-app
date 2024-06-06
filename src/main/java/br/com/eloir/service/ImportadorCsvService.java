@@ -1,4 +1,4 @@
-package br.com.texoit.service;
+package br.com.eloir.service;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import br.com.texoit.entity.Premio;
-import br.com.texoit.repository.PremioRepository;
+import br.com.eloir.entity.Premio;
+import br.com.eloir.repository.PremioRepository;
 
 
 @Service

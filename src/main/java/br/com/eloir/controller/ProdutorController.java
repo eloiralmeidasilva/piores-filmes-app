@@ -1,4 +1,4 @@
-package br.com.texoit.controller;
+package br.com.eloir.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.texoit.dto.ProducerIntervalsDTO;
-import br.com.texoit.service.PremioService;
+import br.com.eloir.dto.ProducerIntervalsDTO;
+import br.com.eloir.service.PremioService;
 
 @RestController
 @RequestMapping("/premios")
