@@ -47,7 +47,7 @@ mvn test
 
 Como Usar os Endpoints
 
-/premios/intervalos Endpoint para obter o produtor com maior intervalo entre dois prêmios consecutivos, e o que
+http://localhost:8080/premios/intervalos - Endpoint para obter o produtor com maior intervalo entre dois prêmios consecutivos, e o que
 obteve dois prêmios mais rápido.
 
 Você pode utilizar um navegador comum para essa chamada
