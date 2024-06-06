@@ -1,10 +1,10 @@
-package br.com.texoit.service;
+package br.com.eloir.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.texoit.dto.ProducerIntervalsDTO;
-import br.com.texoit.repository.PremioRepository;
+import br.com.eloir.dto.ProducerIntervalsDTO;
+import br.com.eloir.repository.PremioRepository;
 
 @Service
 public class PremioService {

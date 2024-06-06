@@ -1,11 +1,11 @@
-package br.com.texoit;
+package br.com.eloir;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import br.com.texoit.service.ImportadorCsvService;
+import br.com.eloir.service.ImportadorCsvService;
 
 @SpringBootApplication
 public class PioresFilmesAppApplication {

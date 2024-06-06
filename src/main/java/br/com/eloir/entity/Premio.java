@@ -1,8 +1,8 @@
-package br.com.texoit.entity;
+package br.com.eloir.entity;
 
 
 
-import br.com.texoit.dto.ProducerInterval;
+import br.com.eloir.dto.ProducerInterval;
 import jakarta.persistence.Column;
 import jakarta.persistence.ColumnResult;
 import jakarta.persistence.ConstructorResult;

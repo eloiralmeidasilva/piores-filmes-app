@@ -1,12 +1,12 @@
-package br.com.texoit.repository;
+package br.com.eloir.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import br.com.texoit.dto.ProducerInterval;
-import br.com.texoit.entity.Premio;
+import br.com.eloir.dto.ProducerInterval;
+import br.com.eloir.entity.Premio;
 
 public interface PremioRepository extends JpaRepository<Premio, Long> {
 		

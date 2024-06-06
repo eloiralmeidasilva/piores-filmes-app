@@ -1,4 +1,4 @@
-package br.com.texoit;
+package br.com.eloir;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -12,8 +12,8 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import br.com.texoit.repository.PremioRepository;
-import br.com.texoit.service.ImportadorCsvService;
+import br.com.eloir.repository.PremioRepository;
+import br.com.eloir.service.ImportadorCsvService;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc

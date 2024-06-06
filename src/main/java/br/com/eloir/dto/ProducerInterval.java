@@ -1,4 +1,4 @@
-package br.com.texoit.dto;
+package br.com.eloir.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
