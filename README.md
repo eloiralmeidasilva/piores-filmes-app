@@ -1,6 +1,8 @@
 # piores-filmes-app
 Instruções para Rodar a Aplicação Web Spring Boot Java 17 e os Testes de Integração
+
 Este repositório contém uma aplicação web Spring Boot Java 17 que carrega um arquivo CSV e fornece endpoints para obter informações sobre os produtores de prêmios. Além disso, inclui testes de integração para garantir o funcionamento correto dos endpoints.
+
 
 Pré-requisitos
 JDK 17 instalado e configurado em sua máquina.
