@@ -41,14 +41,14 @@ class PioresFilmesAppApplicationTests {
     public void testIntervalosEndpoint() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/premios/intervalos"))
                .andExpect(status().isOk())
-               .andExpect(jsonPath("$.min[0].produtor").value("Yoram Globus and Menahem Golan"))
+               .andExpect(jsonPath("$.min[0].produtor").value("Joel Silver"))
                .andExpect(jsonPath("$.min[0].intervalo").value(1))
-               .andExpect(jsonPath("$.min[0].primeiroPremio").value(1986))
-               .andExpect(jsonPath("$.min[0].ultimoPremio").value(1987))
-               .andExpect(jsonPath("$.max[0].produtor").value("Jerry Weintraub"))
-               .andExpect(jsonPath("$.max[0].intervalo").value(9))
-               .andExpect(jsonPath("$.max[0].primeiroPremio").value(1980))
-               .andExpect(jsonPath("$.max[0].ultimoPremio").value(1989));
+               .andExpect(jsonPath("$.min[0].primeiroPremio").value(1990))
+               .andExpect(jsonPath("$.min[0].ultimoPremio").value(1991))
+               .andExpect(jsonPath("$.max[0].produtor").value("Matthew Vaughn"))
+               .andExpect(jsonPath("$.max[0].intervalo").value(13))
+               .andExpect(jsonPath("$.max[0].primeiroPremio").value(2002))
+               .andExpect(jsonPath("$.max[0].ultimoPremio").value(2015));
     }
 
 }
