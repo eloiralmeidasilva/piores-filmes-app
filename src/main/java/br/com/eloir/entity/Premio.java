@@ -21,7 +21,7 @@ import lombok.Setter;
 
 @NamedNativeQuery(name = "Premio.buscarProdutorDemorouMaisEMaisRapido_Named",
 			query = " SELECT produtor, (ultimo_premio - primeiro_premio) as intervalo, primeiro_premio as primeiroPremio, ultimo_premio as ultimoPremio "
-					+ " FROM (SELECT produtor, ano as primeiro_premio, LEAD(ano) OVER (PARTITION BY produtor ORDER BY ano) as ultimo_premio FROM premio) as t "
+					+ " FROM (SELECT produtor, ano as primeiro_premio, LEAD(ano) OVER (PARTITION BY produtor ORDER BY ano) as ultimo_premio FROM premio where vencedor is true) as t "
 					+ " WHERE T.ultimo_premio IS NOT NULL "
 					+ " AND (ultimo_premio - primeiro_premio) = :intervalo "
 					+ " ORDER BY intervalo ASC",

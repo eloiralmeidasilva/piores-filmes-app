@@ -49,14 +49,25 @@
 			<optional>true</optional>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+			    <groupId>org.springframework.boot</groupId>
+			    <artifactId>spring-boot-maven-plugin</artifactId>
+			    <version>3.3.0</version> <!-- Use a versão atual do Spring Boot -->
+			    <configuration>
+			        <jvmArguments>
+			            <jvmArgument>-Dspring.profiles.active=production</jvmArgument> <!-- Configuração de perfil, se necessário -->
+			        </jvmArguments>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <goals>
+			                <goal>repackage</goal>
+			            </goals>
+			        </execution>
+			    </executions>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
